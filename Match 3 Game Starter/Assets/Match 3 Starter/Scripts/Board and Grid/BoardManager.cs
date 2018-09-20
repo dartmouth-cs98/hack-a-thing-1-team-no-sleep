@@ -81,6 +81,14 @@ public class BoardManager : MonoBehaviour {
                 }
             }
         }
+        for (int x = 0; x < xSize; x++)
+        {
+            for (int y = 0; y < ySize; y++)
+            {
+                tiles[x, y].GetComponent<Tile>().ClearAllMatches();
+            }
+        }
+
     }
 
     private IEnumerator ShiftTilesDown(int x, int yStart, float shiftDelay = .03f)
@@ -101,11 +109,12 @@ public class BoardManager : MonoBehaviour {
 
         for (int i = 0; i < nullCount; i++)
         { // 3
+            GUIManager.instance.Score += 50;
             yield return new WaitForSeconds(shiftDelay);// 4
             for (int k = 0; k < renders.Count - 1; k++)
             { // 5
                 renders[k].sprite = renders[k + 1].sprite;
-                renders[k + 1].sprite = null; // 6
+                renders[k + 1].sprite = GetNewSprite(x, ySize - 1);
             }
         }
         IsShifting = false;

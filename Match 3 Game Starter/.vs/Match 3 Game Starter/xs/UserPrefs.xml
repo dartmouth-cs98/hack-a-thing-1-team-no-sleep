@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{F680951A-ADF6-A73F-9C7F-4AF6C8389894}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Match 3 Starter/Scripts/Managers/GUIManager.cs">
+    <Files>
+      <File FileName="Assets/Match 3 Starter/Scripts/Board and Grid/BoardManager.cs" Line="91" Column="9" />
+      <File FileName="Assets/Match 3 Starter/Scripts/Board and Grid/Tile.cs" Line="1" Column="1" />
+      <File FileName="Assets/Match 3 Starter/Scripts/Managers/GUIManager.cs" Line="39" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
