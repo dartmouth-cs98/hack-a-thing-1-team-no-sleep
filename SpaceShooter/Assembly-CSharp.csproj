@@ -88,10 +88,19 @@
     <Compile Include="Assets\SampleScenes\Scripts\NetworkLobbyHook.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\NetworkSpaceship.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\NetworkSpaceshipBullet.cs" />
+    <Compile Include="Assets\Scripts\DestroyByBoundary.cs" />
+    <Compile Include="Assets\Scripts\DestroyByContact.cs" />
+    <Compile Include="Assets\Scripts\DestroyByTime.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\Mover.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\RandomRotator.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <None Include="Assets\Scripts\New UIElements View.uxml" />
     <None Include="Assets\Lobby\Documentation.txt" />
     <None Include="Assets\Lobby\Instruction.txt" />
     <None Include="Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Scripts\New UIElements View 1.uxml" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Alan Lu/Documents/GitHub/hack-a-thing-1-team-no-sleep/SpaceShooter/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
